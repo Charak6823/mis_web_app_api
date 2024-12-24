@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  sql_server:
+    container_name: mis_web_app_db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - SA_PASSWORD=Pass@word
+      - ACCEPT_EULA=Y
+      - trustServerCertificate=true
+    ports:
+      - "5433:1433"
