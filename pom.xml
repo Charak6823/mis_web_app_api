@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-oauth2-resource-server</artifactId>
-			<version>5.7.9</version>
+			<version>5.8.16</version>
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
